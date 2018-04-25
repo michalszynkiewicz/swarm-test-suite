@@ -1,3 +1,19 @@
 swarm:
   bind:
     address: 127.0.0.1
+  management:
+    security-realms:
+      ApplicationRealm:
+        in-memory-authentication:
+          users:
+            bob:
+              password: tacos
+        in-memory-authorization:
+          users:
+            bob:
+              roles:
+              - admin
+  remoting:
+    http-connectors:
+      http-remoting-connector:
+        security-realm: ApplicationRealm

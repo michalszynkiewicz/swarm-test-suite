@@ -35,6 +35,10 @@ remove this line for "full" -->
             <groupId>org.wildfly.swarm</groupId>
             <artifactId>ejb-remote</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.wildfly.swarm</groupId>
+            <artifactId>management</artifactId>
+        </dependency>
 <!-- remove this line for "full"
 -->
 <!-- remove this line for "full"
@@ -43,7 +47,6 @@ remove this line for "full" -->
             <artifactId>full</artifactId>
         </dependency>
 remove this line for "full" -->
-
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
