@@ -20,10 +20,12 @@
         <dependency>
             <groupId>io.jaegertracing</groupId>
             <artifactId>jaeger-core</artifactId>
+<version>${version.io.jaegertracing.everything}</version>
         </dependency>
         <dependency>
             <groupId>io.jaegertracing</groupId>
             <artifactId>jaeger-tracerresolver</artifactId>
+<version>${version.io.jaegertracing.everything}</version>
         </dependency>
         <dependency>
             <groupId>org.wildfly.swarm</groupId>
